@@ -19,7 +19,7 @@ class MainForm(Form):
         # 
         self._label1.BackColor = System.Drawing.Color.FromArgb(255, 128, 128)
         self._label1.Font = System.Drawing.Font("Microsoft Sans Serif", 26.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label1.ForeColor = System.Drawing.Color.FromArgb(224, 224, 224)
+        self._label1.ForeColor = System.Drawing.Color.Black
         self._label1.Location = System.Drawing.Point(37, 28)
         self._label1.Name = "label1"
         self._label1.Size = System.Drawing.Size(895, 320)

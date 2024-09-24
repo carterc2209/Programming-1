@@ -79,3 +79,6 @@ class MainForm(Form):
 
     def Button1Click(self, sender, e):
         self._label1.Text = "I am in game design one and comp programming one."
+
+    def Button2Click(self, sender, e):
+        self._label1.Text = ""

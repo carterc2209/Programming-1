@@ -79,3 +79,6 @@ class MainForm(Form):
 
     def Button3Click(self, sender, e):
         Application.Exit()
+
+    def Button1Click(self, sender, e):
+        self._label1.Text = "My favorite sport is archery"

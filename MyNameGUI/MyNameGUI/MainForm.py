@@ -72,10 +72,13 @@ class MainForm(Form):
         self.Name = "MainForm"
         self.Text = "MyNameGUI"
         self.ResumeLayout(False)
-        self._label1.Text = "My name is Carter Campbell."
+        self._label1.Text = ""
 
     def Button2Click(self, sender, e):
         self._label1.Text = ""
 
     def Button3Click(self, sender, e):
         Application.Exit()
+
+    def Button1Click(self, sender, e):
+        self._label1.Text = "My name is Carter Campbell."
