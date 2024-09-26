@@ -1,0 +1,12 @@
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\bin\Debug\Prog93A.exe.config
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\bin\Debug\Prog93A.exe
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\bin\Debug\Prog93A.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\bin\Debug\IronPython.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\bin\Debug\IronPython.Modules.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\bin\Debug\Microsoft.Scripting.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\obj\Debug\Prog93A.pyprojResolveAssemblyReference.cache
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\obj\Debug\Prog93A.MainForm.resources
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\obj\Debug\Prog93A.pyproj.GenerateResource.Cache
+C:\Users\campbell.c\Desktop\Programming-1\Prog93A\Prog93A\obj\Debug\Prog93A.exe
