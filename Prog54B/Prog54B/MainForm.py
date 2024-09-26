@@ -183,12 +183,14 @@ class MainForm(Form):
         num2 = int(self._textBox2.Text)
         num3 = int(self._textBox3.Text)
         num4 = int(self._textBox4.Text)
-        self._label5.Text = num1 + num2 + num3 + num4
-        self._label6.text = (num1 + num2 + num3 + num4) / 4
+        sum = num1 + num2 + num3 + num4
+        avg = (num1 + num2 + num3 + num4) / 4
+        self._label5.Text = str(sum)
+        self._label6.Text = str(avg)
 
     def Button2Click(self, sender, e):
-        self._label5.Text = ""
-        self._label6.Text = ""
+        self._label5.Text = "Sum:"
+        self._label6.Text = "Average:"
 
     def Button3Click(self, sender, e):
         Application.Exit()
