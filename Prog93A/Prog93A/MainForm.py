@@ -29,6 +29,7 @@ class MainForm(Form):
         self._label1.Size = System.Drawing.Size(435, 31)
         self._label1.TabIndex = 0
         self._label1.Text = "Kilowatts used:"
+        self._label1.Click += self.Label1Click
         # 
         # textBox1
         # 
@@ -88,6 +89,7 @@ class MainForm(Form):
         self._button1.TabIndex = 6
         self._button1.Text = "Calculate"
         self._button1.UseVisualStyleBackColor = False
+        self._button1.Click += self.Button1Click
         # 
         # button2
         # 
@@ -99,6 +101,7 @@ class MainForm(Form):
         self._button2.TabIndex = 7
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = False
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -110,6 +113,7 @@ class MainForm(Form):
         self._button3.TabIndex = 8
         self._button3.Text = "Quit"
         self._button3.UseVisualStyleBackColor = False
+        self._button3.Click += self.Button3Click
         # 
         # MainForm
         # 
@@ -129,3 +133,29 @@ class MainForm(Form):
         self.ResumeLayout(False)
         self.PerformLayout()
 
+
+    def Button1Click(self, sender, e):
+        w = self._textBox1.Text
+        d = float(.0475)
+        rate = float(d) * float(w)
+        sur = float(rate * 0.1)
+        cty = float(rate * 0.03)
+        ttl = rate + sur + cty 
+        late = ttl * 1.04
+        self._label4.Text = "Total: %.2f" % ttl 
+        self._label3.Text = "City Tax: %.2f" % cty
+        self._label2.Text = "Surcharge: %.2f" % sur
+        self._label5.Text = "If Paid Late: %.2f" % late
+
+    def Button2Click(self, sender, e):
+        self._label2.Text = ""
+        self._label3.Text = ""
+        self._label4.Text = ""
+        self._label5.Text = ""
+        self._textBox1.Text = ""
+
+    def Button3Click(self, sender, e):
+        Application.Exit()
+
+    def Label1Click(self, sender, e):
+        pass
