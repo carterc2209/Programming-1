@@ -1,6 +1,8 @@
-﻿import System.Drawing
+﻿import math
+import System.Drawing
 import System.Windows.Forms
 
+from math import *
 from System.Drawing import *
 from System.Windows.Forms import *
 
@@ -121,7 +123,7 @@ class MainForm(Form):
         # 
         self._button2.BackColor = System.Drawing.Color.FromArgb(255, 128, 128)
         self._button2.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._button2.Location = System.Drawing.Point(341, 349)
+        self._button2.Location = System.Drawing.Point(360, 349)
         self._button2.Name = "button2"
         self._button2.Size = System.Drawing.Size(253, 76)
         self._button2.TabIndex = 9
@@ -186,9 +188,18 @@ class MainForm(Form):
     def Button1Click(self, sender, e):
         prc = float(self._textBox1.Text)
         rcvd = float(self._textBox2.Text)
-        due = str(prc - rcvd)
-        self._label3.Text = "Change Due: " + due
-        self._label4.Text = int(due) // 1
+        due = abs(prc - rcvd)
+        self._label3.Text = "Change Due: " + str(due)
+        dollar = due // 1
+        self._label4.Text = "Dollars: " + str(dollar)
+        quarter = (due - dollar) //.25
+        self._label5.Text = "Quarters: " + str(quarter)
+        dime = (dollar + quarter - due) // .10
+        self._label6.Text = str(dime)
+        #nickle = (due - dollar - quarter - dime) //0.05
+        #self._label7.Text = str(nickle)
+        #penny = (due - dollar - quarter - dime - nickle) //0.01
+        #self._label8.Text = str(penny)
         
         
         
