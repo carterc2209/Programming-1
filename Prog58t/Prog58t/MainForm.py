@@ -194,12 +194,13 @@ class MainForm(Form):
         self._label4.Text = "Dollars: " + str(dollar)
         quarter = (due - dollar) //.25
         self._label5.Text = "Quarters: " + str(quarter)
-        dime = (dollar + quarter - due) // .10
-        self._label6.Text = str(dime)
-        #nickle = (due - dollar - quarter - dime) //0.05
-        #self._label7.Text = str(nickle)
-        #penny = (due - dollar - quarter - dime - nickle) //0.01
-        #self._label8.Text = str(penny)
+        dime = (due - dollar - (quarter * 0.25)) // 0.10
+        self._label6.Text = "Dimes: " + str(dime)
+        nickel = (due - dollar - (quarter * 0.25) - (dime * 0.10)) // 0.05
+        self._label7.Text = "Nickles: " + str(nickel)
+        penny = (due - dollar - (quarter * 0.25) - (dime * 0.10) - (nickel * 0.05)) // 0.01
+        self._label8.Text = "Pennies: " + str(penny)
+
         
         
         
