@@ -187,7 +187,7 @@ class MainForm(Form):
 
     def Button1Click(self, sender, e):
         prc = float(self._textBox1.Text)
-        rcvd = float(self._textBox2.Text)
+        rcvd = float(self._textBox2.Text) #recieved
         due = abs(prc - rcvd)
         self._label3.Text = "Change Due: " + str(due)
         dollar = due // 1
