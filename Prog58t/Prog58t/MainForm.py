@@ -190,7 +190,7 @@ class MainForm(Form):
         rcvd = float(self._textBox2.Text) #recieved
         due = abs(prc - rcvd)
         self._label3.Text = "Change Due: " + str(due)
-        dollar = due // 1
+        dollar = int(due)
         self._label4.Text = "Dollars: " + str(dollar)
         quarter = (due - dollar) //.25
         self._label5.Text = "Quarters: " + str(quarter)
