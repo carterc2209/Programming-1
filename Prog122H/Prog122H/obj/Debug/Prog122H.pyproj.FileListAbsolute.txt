@@ -1,0 +1,12 @@
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\bin\Debug\Prog122H.exe.config
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\bin\Debug\Prog122H.exe
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\bin\Debug\Prog122H.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\bin\Debug\IronPython.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\bin\Debug\IronPython.Modules.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\bin\Debug\Microsoft.Scripting.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\obj\Debug\Prog122H.pyprojResolveAssemblyReference.cache
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\obj\Debug\Prog122H.MainForm.resources
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\obj\Debug\Prog122H.pyproj.GenerateResource.Cache
+C:\Users\campbell.c\Desktop\Programming-1\Prog122H\Prog122H\obj\Debug\Prog122H.exe
