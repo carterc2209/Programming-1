@@ -104,14 +104,18 @@ class MainForm(Form):
         self._listBox1.Items.Clear()
 
     def Button1Click(self, sender, e):
-        number = str(self._textBox1.Text)
+        number = int(self._textBox1.Text)
         mysum = 0
-        lcv = 2
+        lcv = 0
         self._listBox1.Items.Add("Even Integer\tSum")
-        while lcv <= 9669:
-            mysum += lcv
-            self._listBox1.Items.Add(str(mysum))
+        for num in range(2, number + 1, 2):
             lcv += 2
+            mysum += lcv
+            numb = str(lcv) + "\t\t" + str(mysum)
+            self._listBox1.Items.Add(numb)
+            if mysum >= number:
+                break
+            
             
             
         
