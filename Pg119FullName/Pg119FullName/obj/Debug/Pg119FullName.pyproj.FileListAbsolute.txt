@@ -1,0 +1,12 @@
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\bin\Debug\Pg119FullName.exe.config
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\bin\Debug\Pg119FullName.exe
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\bin\Debug\Pg119FullName.dll
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\bin\Debug\IronPython.dll
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\bin\Debug\IronPython.Modules.dll
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\bin\Debug\Microsoft.Scripting.dll
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\obj\Debug\Pg119FullName.pyprojResolveAssemblyReference.cache
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\obj\Debug\Pg119FullName.MainForm.resources
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\obj\Debug\Pg119FullName.pyproj.GenerateResource.Cache
+C:\Users\campbell.c\Desktop\Programming-1\Pg119FullName\Pg119FullName\obj\Debug\Pg119FullName.exe
