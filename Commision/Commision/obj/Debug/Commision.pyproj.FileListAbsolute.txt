@@ -1,0 +1,12 @@
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\obj\Debug\Commision.pyprojResolveAssemblyReference.cache
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\obj\Debug\Commision.MainForm.resources
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\obj\Debug\Commision.pyproj.GenerateResource.Cache
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\bin\Debug\Commision.exe.config
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\bin\Debug\Commision.exe
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\bin\Debug\Commision.dll
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\bin\Debug\IronPython.dll
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\bin\Debug\IronPython.Modules.dll
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\bin\Debug\Microsoft.Scripting.dll
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\campbell.c\Desktop\Programming-1\Commision\Commision\obj\Debug\Commision.exe

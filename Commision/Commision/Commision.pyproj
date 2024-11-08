@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{C36C9C70-C0DF-4661-9A58-1666B0E1FB32}</ProjectGuid>
+    <ProjectGuid>{0B8B9D1B-DAB2-4130-92EE-EE399425CB6F}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <RootNamespace>TestAverage</RootNamespace>
-    <AssemblyName>TestAverage</AssemblyName>
+    <RootNamespace>Commision</RootNamespace>
+    <AssemblyName>Commision</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>

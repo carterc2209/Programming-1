@@ -20,6 +20,7 @@ class MainForm(Form):
         self._button1 = System.Windows.Forms.Button()
         self._button2 = System.Windows.Forms.Button()
         self._button3 = System.Windows.Forms.Button()
+        self._label6 = System.Windows.Forms.Label()
         self.SuspendLayout()
         # 
         # label1
@@ -90,9 +91,9 @@ class MainForm(Form):
         # label5
         # 
         self._label5.Font = System.Drawing.Font("Microsoft Sans Serif", 27.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label5.Location = System.Drawing.Point(74, 253)
+        self._label5.Location = System.Drawing.Point(74, 309)
         self._label5.Name = "label5"
-        self._label5.Size = System.Drawing.Size(448, 87)
+        self._label5.Size = System.Drawing.Size(448, 31)
         self._label5.TabIndex = 7
         self._label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         # 
@@ -132,10 +133,21 @@ class MainForm(Form):
         self._button3.UseVisualStyleBackColor = False
         self._button3.Click += self.Button3Click
         # 
+        # label6
+        # 
+        self._label6.BackColor = System.Drawing.Color.White
+        self._label6.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label6.Location = System.Drawing.Point(12, 271)
+        self._label6.Name = "label6"
+        self._label6.Size = System.Drawing.Size(573, 38)
+        self._label6.TabIndex = 11
+        self._label6.Text = "Average:"
+        # 
         # MainForm
         # 
         self.BackColor = System.Drawing.Color.FromArgb(128, 128, 255)
         self.ClientSize = System.Drawing.Size(597, 457)
+        self.Controls.Add(self._label6)
         self.Controls.Add(self._button3)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._button1)
@@ -158,9 +170,15 @@ class MainForm(Form):
 
     def Button2Click(self, sender, e):
         self._label5.Text = ""
+        self._label6.Text = "Average: "
 
     def Button1Click(self, sender, e):
-        Score1 = self._textBox1.Text
-        Score2 = self._textBox2.Text
-        Score3 = self._textBox3.Text
+        Score1 = int(self._textBox1.Text)
+        Score2 = int(self._textBox2.Text)
+        Score3 = int(self._textBox3.Text)
         Average = (Score1 + Score2 + Score3) / 3
+        self._label6.Text = "Average: " + str(Average)
+        if Average > 95:
+            self._label5.Text = "Congratulations! Great Job!"
+        elif Average < 95:
+            self._label5.Text = ""
