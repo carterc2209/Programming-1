@@ -1,0 +1,12 @@
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\bin\Debug\MembershipFee.exe.config
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\bin\Debug\MembershipFee.exe
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\bin\Debug\MembershipFee.dll
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\bin\Debug\IronPython.dll
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\bin\Debug\IronPython.Modules.dll
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\bin\Debug\Microsoft.Scripting.dll
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\obj\Debug\MembershipFee.pyprojResolveAssemblyReference.cache
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\obj\Debug\MembershipFee.MainForm.resources
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\obj\Debug\MembershipFee.pyproj.GenerateResource.Cache
+C:\Users\campbell.c\Desktop\Programming-1\MembershipFee\MembershipFee\obj\Debug\MembershipFee.exe

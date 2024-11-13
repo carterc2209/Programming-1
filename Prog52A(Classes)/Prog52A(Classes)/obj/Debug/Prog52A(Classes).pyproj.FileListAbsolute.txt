@@ -1,0 +1,10 @@
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\bin\Debug\Prog52A(Classes).exe.config
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\bin\Debug\Prog52A(Classes).exe
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\bin\Debug\Prog52A(Classes).dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\bin\Debug\IronPython.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\bin\Debug\IronPython.Modules.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\obj\Debug\Prog52A(Classes).pyprojResolveAssemblyReference.cache
+C:\Users\campbell.c\Desktop\Programming-1\Prog52A(Classes)\Prog52A(Classes)\obj\Debug\Prog52A(Classes).exe

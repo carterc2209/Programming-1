@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "DictionariesAndTuples", "DictionariesAndTuples\DictionariesAndTuples.pyproj", "{B73966F4-04CF-4DEB-9EEB-8A091E6BFA46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B73966F4-04CF-4DEB-9EEB-8A091E6BFA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73966F4-04CF-4DEB-9EEB-8A091E6BFA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73966F4-04CF-4DEB-9EEB-8A091E6BFA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73966F4-04CF-4DEB-9EEB-8A091E6BFA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
