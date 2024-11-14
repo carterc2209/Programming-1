@@ -236,33 +236,52 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        Months = int(self._textBox1.Text)
         Yoga = 0.0
         Karate = 0.0
-        Trainer = 0.0
-        Base = 0.0
-        if Months < 1 and Months < 24:
-            MessageBox.Show("Error")
+        PersonalTrainer = 0.0
+        Discount = 0.0
+        Months = int(self._textBox1.Text)
+        BaseFee = 0.0
         
-        if self._radioButton1.Checked == True:
-            Base = 20.0
+        if Months < 1 or Months > 24:
+            MessageBox.Show("ERROR")
+        
+        if self._radioButton3.Checked == True:
+            BaseFee = 40.0
+        elif self._radioButton1.Checked == True:
+            BaseFee = 20.0
         elif self._radioButton2.Checked == True:
-            Base = 25.0
-        elif self._radioButton3.Checked == True:
-            Base = 40.0
+            BaseFee = 25.0
         elif self._radioButton4.Checked == True:
-            Base = 30.0
+            BaseFee = 30.0
         
         if self._checkBox1.Checked == True:
-            Yoga == 10.0
+            Yoga = 10.0
         if self._checkBox2.Checked == True:
-            Karate == 30.0
+            Karate = 30.0
         if self._checkBox3.Checked == True:
-            Yoga == 50.0
+            PersonalTrainer = 50.0
         
-        self._label6.Text = "Monthly Fee: " + str(Base)
-        Base = (Yoga + Karate + Trainer + Base) * Months
-        self._label7.Text = "Total: " + str(Base)
+        if Months <= 3:
+            Discount = 0
+        elif Months < 6 and Months > 4:
+            Discount = 0.05
+        elif Months < 9 and Months > 7:
+            Discount = 0.08
+        elif Months >= 10:
+            Discount = 0.1
+       
+        
+        
+        
+        Total = (BaseFee + Yoga + Karate + PersonalTrainer)
+        TotalFee = ((BaseFee + Yoga + Karate + PersonalTrainer) - (Total * Discount)) * Months
+        self._label6.Text = "Monthly Fee: " + str(TotalFee / Months)
+        self._label7.Text = "Total: " + str(TotalFee)
+
+
+
+
 
     def Button3Click(self, sender, e):
         self._label6.Text = "Monthly Fee: " 
