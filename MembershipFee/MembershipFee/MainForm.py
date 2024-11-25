@@ -264,7 +264,7 @@ class MainForm(Form):
         
         if Months <= 3:
             Discount = 0
-        elif Months < 6 and Months > 4:
+        elif Months <= 6 and Months > 4:
             Discount = 0.05
         elif Months < 9 and Months > 7:
             Discount = 0.08

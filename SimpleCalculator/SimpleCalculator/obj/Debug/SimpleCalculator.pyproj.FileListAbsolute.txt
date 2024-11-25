@@ -1,0 +1,12 @@
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.dll
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\bin\Debug\IronPython.dll
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\bin\Debug\IronPython.Modules.dll
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\bin\Debug\Microsoft.Scripting.dll
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pyprojResolveAssemblyReference.cache
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.MainForm.resources
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pyproj.GenerateResource.Cache
+C:\Users\campbell.c\Desktop\Programming-1\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.exe

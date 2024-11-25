@@ -1,0 +1,12 @@
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\bin\Debug\FatCalculator.exe.config
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\bin\Debug\FatCalculator.exe
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\bin\Debug\FatCalculator.dll
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\bin\Debug\IronPython.dll
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\bin\Debug\IronPython.Modules.dll
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\bin\Debug\Microsoft.Scripting.dll
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\obj\Debug\FatCalculator.pyprojResolveAssemblyReference.cache
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\obj\Debug\FatCalculator.MainForm.resources
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\obj\Debug\FatCalculator.pyproj.GenerateResource.Cache
+C:\Users\campbell.c\Desktop\Programming-1\FatCalculator\FatCalculator\obj\Debug\FatCalculator.exe
