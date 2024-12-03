@@ -108,7 +108,7 @@ class MainForm(Form):
         self._textBox4.Font = System.Drawing.Font("Microsoft Sans Serif", 20.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._textBox4.Location = System.Drawing.Point(356, 74)
         self._textBox4.Name = "textBox4"
-        self._textBox4.Size = System.Drawing.Size(150, 38)
+        self._textBox4.Size = System.Drawing.Size(191, 38)
         self._textBox4.TabIndex = 8
         # 
         # textBox5
@@ -116,7 +116,7 @@ class MainForm(Form):
         self._textBox5.Font = System.Drawing.Font("Microsoft Sans Serif", 20.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._textBox5.Location = System.Drawing.Point(356, 127)
         self._textBox5.Name = "textBox5"
-        self._textBox5.Size = System.Drawing.Size(150, 38)
+        self._textBox5.Size = System.Drawing.Size(191, 38)
         self._textBox5.TabIndex = 9
         # 
         # textBox6
@@ -124,7 +124,7 @@ class MainForm(Form):
         self._textBox6.Font = System.Drawing.Font("Microsoft Sans Serif", 20.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._textBox6.Location = System.Drawing.Point(356, 178)
         self._textBox6.Name = "textBox6"
-        self._textBox6.Size = System.Drawing.Size(150, 38)
+        self._textBox6.Size = System.Drawing.Size(191, 38)
         self._textBox6.TabIndex = 10
         # 
         # button1

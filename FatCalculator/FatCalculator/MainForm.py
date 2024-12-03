@@ -126,6 +126,6 @@ class MainForm(Form):
     def Button1Click(self, sender, e):
         cals = int(self._textBox1.Text)
         fatg = int(self._textBox2.Text)
-        fatc = fatg * 9
-        cal = cals - int(fatc)
-        self._label3.Text = "% of Calories From Fat: " + str(cals - cal)
+        fatc = float(fatg * 9)
+        cal = fatc / cals * 100
+        self._label3.Text = "% of Calories From Fat: " + str(cal)
