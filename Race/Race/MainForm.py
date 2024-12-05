@@ -235,27 +235,27 @@ class MainForm(Form):
         r1t = str(self._textBox4.Text)
         r2t = str(self._textBox5.Text)
         r3t = str(self._textBox6.Text)
-        if r1t > r2t and r1t > r3t:
+        if r1t < r2t and r1t < r3t:
             self._label6.Text = "First: " + r1n +  "   " + r1t
             if r2t > r3t:
                 self._label7.Text = "Second: " + r2n +  "   " + r2t
                 self._label8.Text = "Third: " + r3n +  "   " + r3t
-            elif r3t > r2t:
+            elif r3t < r2t:
                 self._label7.Text = "Second: " + r3n +  "   " + r3t
                 self._label8.Text = "Third: " + r2n +  "   " + r2t
-        elif r2t > r1t and r2t > r3t:
+        elif r2t < r1t and r2t < r3t:
             self._label6.Text = "First: " + r2n +  "   " + r2t
-            if r1t > r3t:
+            if r1t < r3t:
                 self._label7.Text = "Second: " + r1n +  "   " + r1t
                 self._label8.Text = "Third: " + r3n +  "   " + r3t
-            elif r3t > r1t:
+            elif r3t < r1t:
                 self._label7.Text = "Second: " + r3n +  "   " + r3t
                 self._label8.Text = "Third: " + r1n +  "   " + r1t
-        elif r3t > r1t and r3t > r2t:
+        elif r3t < r1t and r3t < r2t:
             self._label6.Text = "First: " + r3n +  "   " + r3t
-            if r1t > r2t:
+            if r1t < r2t:
                 self._label7.Text = "Second: " + r1n +  "   " + r1t
                 self._label8.Text = "Third: " + r2n +  "   " + r2t
-            elif r2t > r1t:
+            elif r2t < r1t:
                 self._label7.Text = "Second: " + r2n +  "   " + r2t
                 self._label8.Text = "Third: " + r1n +  "   " + r1t

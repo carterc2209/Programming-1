@@ -150,9 +150,37 @@ class MainForm(Form):
         self._label4.Text = ""
 
     def Button1Click(self, sender, e):
-        A = 99 * int(self._textBox1.Text)
-        B = 199 * int(self._textBox2.Text)
-        C = 299 * int(self._textBox3.Text)
-        self._label4.Text = "Package A: " + str(A) + "\n" + "Package B: " + str(B) + "\n" + "Package C: " + str(C) +  "\n" + "Total: " + str(A + B + C)
-
-        
+        A = int(self._textBox1.Text)
+        if A in range(10, 19):
+            A = A - (A * 0.2)
+        elif A in range(20, 49):
+            A = A - (A * 0.3)
+        elif A in range(50, 99):
+            A = A - (A * 0.4)
+        elif A >= 100:
+            A = A - (A * 0.5)
+            
+            
+        B = int(self._textBox2.Text)
+        if B in range(10, 19):
+            B = B - (B * 0.2)
+        elif B in range(20, 49):
+            B = B - (B * 0.3)
+        elif B in range(50, 99):
+            B = B - (B * 0.4)
+        elif B >= 100:
+            B = B - (B * 0.5)
+            
+            
+        C = int(self._textBox3.Text)
+        if C in range(10, 19):
+            C = C * 0.2
+        elif C in range(20, 49):
+            C = C * 0.7
+        elif C in range(50, 99):
+            C = C * 0.6
+        elif C >= 100:
+            C = C - (C * 0.5)
+            
+            
+        self._label4.Text = "Package A: " + str(99 * A) + "\n" + "Package B: " + str(199 * B) + "\n" + "Package C: " + str(299 * C) +  "\n" + "Total: " + str((A * 99) + (B* 199) + (C * 299))

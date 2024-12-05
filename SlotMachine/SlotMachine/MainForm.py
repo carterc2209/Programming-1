@@ -124,7 +124,7 @@ class MainForm(Form):
         self._label2.Name = "label2"
         self._label2.Size = System.Drawing.Size(200, 20)
         self._label2.TabIndex = 7
-        self._label2.Text = "100"
+        self._label2.Text = "1000000"
         # 
         # label3
         # 
@@ -338,10 +338,13 @@ class MainForm(Form):
             if num1 == 2 and num2 == 2 and num3 == 2:
                 newmoney += bet * 5
             
-            if num1 == 3 and num2 == 4 and num3 == 5:
+            if num1 == 3 and num2 == 3 and num3 == 3:
                 newmoney += bet * 10
              
-            if num1 == 4 and num2 == 5 and num3 == 6:
+            if num1 == 4 and num2 == 4 and num3 == 4:
+                newmoney += bet * 50
+                
+            if num1 == 5 and num2 == 5 and num3 == 5:
                 newmoney += bet * 50
 
             
@@ -350,10 +353,13 @@ class MainForm(Form):
             
             if num1 == 1 and num2 == 2 and num3 == 3:
                 newmoney += bet * 5
+                
             if num1 == 2 and num2 == 3 and num3 == 4:
                 newmoney += bet * 25
+                
             if num1 == 3 and num2 == 4 and num3 == 5:
                 newmoney += bet * 100
+
             
             
             self.num1 = 0
