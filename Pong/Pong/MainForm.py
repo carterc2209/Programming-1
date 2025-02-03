@@ -1,11 +1,14 @@
 ﻿import System.Drawing
 import System.Windows.Forms
+import _random
 
+from _random import *
 from System.Drawing import *
 from System.Windows.Forms import *
 
 class MainForm(Form):
     def __init__(self):
+        self.set = 10
         self.InitializeComponent()
         self.R = System.Random()
         self.ballup = 0
@@ -40,6 +43,7 @@ class MainForm(Form):
         self._lbltitle.TabIndex = 0
         self._lbltitle.Text = "Press Enter to Start or M to start Multiplayer"
         self._lbltitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        self._lbltitle.Click += self.LbltitleClick
         # 
         # leftscore
         # 
@@ -64,6 +68,7 @@ class MainForm(Form):
         self._rightscore.TabIndex = 2
         self._rightscore.Text = "0"
         self._rightscore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        self._rightscore.Click += self.RightscoreClick
         # 
         # lblball
         # 
@@ -90,10 +95,7 @@ class MainForm(Form):
         self._lblright.Name = "lblright"
         self._lblright.Size = System.Drawing.Size(20, 100)
         self._lblright.TabIndex = 5
-        # 
-        # timerdummy
-        # 
-        self._timerdummy.Interval = 1
+        self._lblright.Click += self.LblrightClick
         # 
         # timerright
         # 
@@ -140,7 +142,7 @@ class MainForm(Form):
         lscore = int(self._leftscore.Text)
         ball.Top += self.ballup
         ball.Left += 8 * self.balld
-        
+        self.set -= 1
         if ball.Right >= rpdl.Right and ball.Bottom >= rpdl.Top and ball.Top <= rpdl.Bottom:
             self.balld = -1
             self.ballup = self.R.Next(-4, 5)
@@ -180,8 +182,16 @@ class MainForm(Form):
             self.ballup = 0
             self._lbltitle.Text = "Right Player Wins! Press R to restart"
             self._lbltitle.Visible = True
-        if self._timerboolean.Enabled:
-            lpdl.Top = ball.Top - 20
+            
+        random1 = self.R.Next(1, 10)
+        
+        if self._timerboolean.Enabled and self.set <= 0:
+            self.set = self.R.Next(10, 50)
+            if rscore < lscore or rscore == 0:
+                lpdl.Top = ball.Top - self.R.Next(1, 50)
+                #MessageBox.Show(str(random1))
+            elif lscore < rscore:
+                lpdl.Top = ball.Top - self.R.Next(1, 20)
         pass
 
     def MainFormKeyDown(self, sender, e):
@@ -212,17 +222,13 @@ class MainForm(Form):
             lpdl.Top = (self.Height // 2) - 50 + lpdl.Height
             rpdl.Top = (self.Height // 2) - 50 + rpdl.Height
             bl.BackColor = Color.White
+            self.BackColor = Color.Black
+            self._lblball.Height = 20
+            self._lblball.Width = 20
             
             
         if e.KeyCode == Keys.R:
             reset()
-            
-        
-        if e.KeyCode == Keys.Enter:
-            tball.Enabled = True
-            tdum.Enabled = True
-            tbool.Enabled = not tmult.Enabled
-            title.Visible = False
             
         if e.KeyCode == Keys.M:
             reset()
@@ -230,19 +236,28 @@ class MainForm(Form):
             title.Text = "Use W and S to move the left paddle; hit Enter to start"
             tmult.Enabled = True
             
+        if e.KeyCode == Keys.Enter:
+            tball.Enabled = True
+            tdum.Enabled = True
+            tbool.Enabled = not tmult.Enabled
+            title.Visible = False
+            
+     
+            
         if tdum.Enabled:
+            if e.KeyCode == Keys.Up:
                 self.flagright = False
                 tright.Enabled = True
-        elif e.KeyCode == Keys.Down:
-            self.flagright = True
-            tright.Enabled = True
+            elif e.KeyCode == Keys.Down:
+                self.flagright = True
+                tright.Enabled = True
         
         if tmult.Enabled and tball.Enabled:
             if e.KeyCode == Keys.W:
-                self.flagleft = False
-                tright.Enabled = True
+                self.flagright.Enabled = False
+                tleft.Enabled = True
             elif e.KeyCode == Keys.S:
-                self.flagleft = True
+                self.flagleft.Enabled = True
                 tright.Enabled = True
         pass
 
@@ -267,7 +282,6 @@ class MainForm(Form):
     def LblballClick(self, sender, e):
         self._lblball.BackColor = Color.Red
         self.BackColor = Color.Green  # Form BG Color
-        """ TODO: PUT MORE EASTER EGGS LATER """
 
     def MainFormSizeChanged(self, sender, e):
         self._lblright.Left = self.Width - 25 - self._lblright.Width
@@ -278,4 +292,19 @@ class MainForm(Form):
 
     def LblleftClick(self, sender, e):
         self._lblball.BackColor = Color.Yellow
-        self.BackColor = Color.Blue
+        self.BackColor = Color.Brown
+
+    def LblrightClick(self, sender, e):
+        if self._timerdummy.Enabled == True:
+            self._lblball.Height *= self.R.Next(2, 3)
+            self._lblball.Width *= self.R.Next(2, 3)
+        
+
+    def LbltitleClick(self, sender, e):
+        self._lblball.BackColor = Color.Green
+        self.BackColor = Color.Red
+
+    def RightscoreClick(self, sender, e):
+        if self._lblball.Height > 20 and self._lblball.Width > 20:
+            self._lblball.Height /= 1.5
+            self._lblball.Width /= 1.5
